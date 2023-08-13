@@ -1,15 +1,19 @@
 # Instagram Reel Video Downloader
 
-![Project Logo](project_logo.png) <!-- Replace with your project logo or relevant image -->
 
-Instagram Reel Video Downloader is a simple tool that allows you to extract and download video sources from Instagram Reels. With this tool, you can easily copy the video source URL or download the video to your local machine.
+![image](https://github.com/yllberisha/InstaReelExtractor/assets/102769384/0466f7b9-7415-426a-a811-5f74722914fe)
 
-## Features
 
-- Extract video source URL from Instagram Reel links
-- Download Instagram Reel videos to your computer
-- User-friendly graphical interface
-- Cross-platform compatibility (Windows, macOS, Linux)
+Instagram Reel Video Downloader is a versatile tool that allows you to extract and download video sources from Instagram Reels. This project offers two versions of the application – one with a graphical user interface (GUI) and another with a command-line (CMD) interface.
+
+## GUI Version
+
+The GUI version of the application provides a user-friendly interface for fetching Instagram Reel video sources and interacting with the extracted URLs. It features:
+
+- A clean and intuitive GUI layout
+- Input field for entering Instagram Reel links
+- Button to fetch the video source URL
+- Copy and download options for the extracted URLs
 
 ## Usage
 
@@ -19,21 +23,52 @@ Instagram Reel Video Downloader is a simple tool that allows you to extract and 
 4. Click the "Copy" button to copy the video source URL to your clipboard.
 5. Click the "Download" button to download the video to your local machine.
 
+## CMD Version
+
+The CMD version of the application is designed for users who prefer working within a command-line environment. This version offers:
+
+- Interaction through the command-line interface
+- Input prompt for entering Instagram Reel links
+- Display of the video source URL
+- Optional video download functionality
+
+## Features
+
+Both versions of the application share common features:
+
+- Extraction of video source URL from Instagram Reel links
+- Ability to download Instagram Reel videos to your local machine
+- Cross-platform compatibility (Windows, macOS, Linux)
+
 ## Requirements
 
 - Python 3.6+
-- `selenium` library (`pip install selenium`)
+- `selenium` library (you can install it using the command `pip install selenium`)
+
+## Installation and Usage
+
+For the GUI version:
+
+1. Clone this repository.
+2. Install the required dependencies using `pip install -r requirements.txt`.
+3. Run the application using `python IgReelExtractorGui.py`.
+
+For the CMD version:
+
+1. Clone this repository.
+2. Install the required dependencies using `pip install selenium`.
+3. Run the application using `python IgReelExtractorCMD.py`.
 
 ## Installation
 
 Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/instagram-reel-video-downloader.git
+   git clone https://github.com/yllberisha/InstaReelExtractor.git
 ```
 
 Change directory:
 ```bash
-cd instagram-reel-video-downloader
+cd InstaReelExtractor
 ```
 
 Install the required dependencies:
@@ -47,3 +82,4 @@ Run the application:
 ```bash
 python main.py
 ```
+
